@@ -18,7 +18,6 @@ describe('Javabuzz', function() {
 
   });
 
-});
 
 
 
