@@ -22,6 +22,7 @@ Our directory structure now looks like this:
 │       ├── jasmine.css
 
 │       ├── jasmine.js
+
 │       └── jasmine_favicon.png
 ├── spec
 │   └── JavabuzzSpec.js
