@@ -28,6 +28,6 @@ another thermostat practice exercise app using jasmine testing framework
 │   └── JavabuzzSpec.js
 
 └── src
+    |___Javabuzz.js
 
-    └── Javabuzz.js
     
