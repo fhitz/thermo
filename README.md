@@ -12,6 +12,7 @@ Our directory structure now looks like this:
 
 ├── lib
 │   └── jasmine-2.0.2
+
 │       ├── boot.js
 │       ├── console.js
 │       ├── jasmine-html.js
