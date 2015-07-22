@@ -8,6 +8,7 @@ another thermostat practice exercise app using jasmine testing framework
 
 .
 |-------- SpecRunner.html
+
 ├── lib
 │   └── jasmine-2.0.2
 │       ├── boot.js
