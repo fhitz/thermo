@@ -26,8 +26,4 @@ Our directory structure now looks like this:
 │       └── jasmine_favicon.png
 ├── spec
 
-│   └── JavabuzzSpec.js
-└── src
-
-    └── Javabuzz.js
     
