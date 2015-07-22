@@ -19,7 +19,3 @@ Our directory structure now looks like this:
 
 │       ├── jasmine-html.js
 
-│       ├── jasmine.css
-
-
-    
