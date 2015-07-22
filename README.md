@@ -13,7 +13,7 @@ describe('Javabuzz', function() {
 
     it('divisible by 3', function() {
       javabuzz = new Javabuzz();
-      expect(isDivisibleByThr
+      expect(isDiv
     
 
 
