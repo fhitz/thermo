@@ -16,7 +16,6 @@ describe('Javabuzz', function() {
       expect(isDivisibleByThree(3)).toBe(true);
     });
 
-  });
 
 
 
