@@ -9,7 +9,7 @@ describe('Javabuzz', function() {
 
   var javabuzz;
 
-  descr
+ 
 
 
 
