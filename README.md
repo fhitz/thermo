@@ -7,7 +7,7 @@ another thermostat practice exercise app using Javascript and jasmine testing fr
 
 describe('Javabuzz', function() {
 
-  var javabuzz;
+ 
 
  
 
