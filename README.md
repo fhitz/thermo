@@ -10,6 +10,5 @@ Our directory structure now looks like this:
 .
 ├── SpecRunner.html
 
-├── lib
-│   └── jasmine-2.0.2
+
 
