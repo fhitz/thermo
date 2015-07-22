@@ -15,7 +15,4 @@ Our directory structure now looks like this:
 
 │       ├── boot.js
 
-│       ├── console.js
-
-│       ├── jasmine-html.js
-
+│ 
