@@ -14,9 +14,6 @@ Our directory structure now looks like this:
 
 │   └── jasmine-2.0.2
 
-│       ├── boot.js
-
-
 
 
 
