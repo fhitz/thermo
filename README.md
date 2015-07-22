@@ -8,7 +8,7 @@ Our directory structure now looks like this:
 
 → tree
 .
-├── SpecRunner.html
+
 
 
 
