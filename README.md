@@ -4,6 +4,8 @@ another thermostat practice exercise app using jasmine testing framework
 
 
 → tree
+
+
 .
 |-------- SpecRunner.html
 ├── lib
