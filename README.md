@@ -24,8 +24,6 @@ Our directory structure now looks like this:
 
 │       ├── jasmine.js
 
-│       └── jasmine_favicon.png
-├── spec
 
 
 
