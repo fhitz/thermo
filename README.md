@@ -11,7 +11,7 @@ describe('Javabuzz', function() {
 
   describe('knows when a number is', function() {
 
-    it('divisible by 3', function() {
+    it('divisible by 3', function
      
     
 
