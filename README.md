@@ -2,18 +2,10 @@
 
 another thermostat practice exercise app using jasmine testing framework
 
-Which needs to be changed over to the following:
-
-   <!-- include source files here... -->
-  <script type="text/javascript" src="src/Javabuzz.js"></script>
-
-  <!-- include spec files here... -->
-  <script type="text/javascript" src="spec/JavabuzzSpec.js"></script>
-Our directory structure now looks like this:
 
 → tree
 .
-├── SpecRunner.html
+|-------- SpecRunner.html
 ├── lib
 │   └── jasmine-2.0.2
 │       ├── boot.js
