@@ -10,7 +10,6 @@ Our directory structure now looks like this:
 .
 ├── SpecRunner.html
 
-├──
 
 
 
