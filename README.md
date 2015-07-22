@@ -9,7 +9,7 @@ describe('Javabuzz', function() {
 
   var javabuzz;
 
-  describe('knows when a number is'
+  describe('knows when a num
 
 
 
