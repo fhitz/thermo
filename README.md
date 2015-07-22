@@ -30,4 +30,5 @@ Our directory structure now looks like this:
 └── src
 
     └── Javabuzz.js
+    
 Now we need to start writing our tests. YAY TESTING! <3
