@@ -14,7 +14,12 @@ Thermo.prototype.decreaseTemperature = function() {
 };
 
 Thermo.prototype.powerSaveButton = function() {
-  if (this.powerSaveMode == false) {
+  if (this.powerSaveMode == true) {
+    this.maxTemperature = 25;
+  } else if (this.powerSaveMode == false) {
     this.maxTemperature = 32;
+  } else {
+    this.powerSaveMode = true;
+    this.maxTemperature = 25;
   }
 };
