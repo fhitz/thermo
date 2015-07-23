@@ -14,8 +14,9 @@ Thermo.prototype.increaseTemperature = function() {
 };
 
 Thermo.prototype.decreaseTemperature = function() {
-  
-  return this.defaultTemperature -= 1;
+  if (this.defaultTemperature > 10) {
+    return this.defaultTemperature -= 1;
+  }  
 };
 
 Thermo.prototype.powerSaveButton = function() {
