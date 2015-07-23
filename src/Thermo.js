@@ -1,1 +1,3 @@
-var Thermo = function() {};
+var Thermo = function() {
+  this.defaultTemperature = 20;
+};
