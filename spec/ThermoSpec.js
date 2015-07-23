@@ -17,6 +17,11 @@ describe('Thermo', function() {
     expect(thermo.decreaseTemperature()).toEqual(19);
   });
 
+  it('minimum temperature is 10 degrees', function() {
+    thermo = new Thermo();
+    expect(thermo.minimumTemperature).toBe(10);
+  });
+
 
 
 
