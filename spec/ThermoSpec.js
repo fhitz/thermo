@@ -67,6 +67,7 @@ describe('Thermo', function() {
     expect(thermo.color).toBe('red');
   });
 
+  
 
 
 

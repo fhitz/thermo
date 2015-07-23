@@ -7,11 +7,15 @@ var Thermo = function() {
 };
 
 Thermo.prototype.increaseTemperature = function() {
-  return this.defaultTemperature + 1;
+  if ((this.powerSaveMode == true && this.defaultTemperature < 25) ||
+     (this.powerSaveMode == false && this.defaultTemperature < 32)) {
+       return this.defaultTemperature += 1;
+  }
 };
 
 Thermo.prototype.decreaseTemperature = function() {
-  return this.defaultTemperature - 1;
+  
+  return this.defaultTemperature -= 1;
 };
 
 Thermo.prototype.powerSaveButton = function() {
