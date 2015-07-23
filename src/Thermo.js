@@ -1,0 +1,1 @@
+var Thermo = function() {};
