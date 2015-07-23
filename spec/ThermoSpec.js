@@ -49,8 +49,22 @@ describe('Thermo', function() {
   it('display color should be green when under 18', function() {
     thermo = new Thermo();
     thermo.defaultTemperature = 15;
-    thermo.setGreen();
+    thermo.setColor();
     expect(thermo.color).toBe('green');
+  });
+
+  it('display color should be yellow when over 18 and under 25', function() {
+    thermo = new Thermo();
+    thermo.defaultTemperature = 22;
+    thermo.setColor();
+    expect(thermo.color).toBe('yellow');
+  });
+
+  it('display color should be red when over 25', function() {
+    thermo = new Thermo();
+    thermo.defaultTemperature = 35;
+    thermo.setColor();
+    expect(thermo.color).toBe('red');
   });
 
 
