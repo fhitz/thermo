@@ -12,6 +12,11 @@ describe('Thermo', function() {
     expect(thermo.increaseTemperature()).toEqual(21);
   });
 
+  it('decrease temperature by one degree with down button', function() {
+    thermo = new Thermo();
+    expect(thermo.decreaseTemperature()).toEqual(19);
+  });
+
 
 
 
