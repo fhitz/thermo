@@ -40,6 +40,12 @@ describe('Thermo', function() {
     expect(thermo.maxTemperature).toEqual(25);
   });
 
+  it('can reset to 20 by hitting reset button', function() {
+    thermo = new Thermo();
+    thermo.resetButton();
+    expect(thermo.defaultTemperature).toEqual(20);
+  });
+
 
 
 

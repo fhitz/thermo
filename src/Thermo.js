@@ -23,3 +23,7 @@ Thermo.prototype.powerSaveButton = function() {
     this.maxTemperature = 25;
   }
 };
+
+Thermo.prototype.resetButton = function() {
+  return this.defaultTemperature = 20;
+};
