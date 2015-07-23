@@ -3,6 +3,7 @@ var Thermo = function() {
   this.minimumTemperature = 10;
   this.powerSaveMode = true;
   this.maxTemperature = 25;
+  this.color = 'white';
 };
 
 Thermo.prototype.increaseTemperature = function() {
@@ -26,4 +27,10 @@ Thermo.prototype.powerSaveButton = function() {
 
 Thermo.prototype.resetButton = function() {
   return this.defaultTemperature = 20;
+};
+
+Thermo.prototype.setGreen = function() {
+    if ( this.defaultTemperature < 18 ) {
+      this.color = 'green';
+    }
 };

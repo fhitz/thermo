@@ -46,6 +46,14 @@ describe('Thermo', function() {
     expect(thermo.defaultTemperature).toEqual(20);
   });
 
+  it('display color should be green when under 18', function() {
+    thermo = new Thermo();
+    thermo.defaultTemperature = 15;
+    thermo.setGreen();
+    expect(thermo.color).toBe('green');
+  });
+
+
 
 
 
