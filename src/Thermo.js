@@ -1,6 +1,8 @@
 var Thermo = function() {
   this.defaultTemperature = 20;
   this.minimumTemperature = 10;
+  this.powerSaveMode = true;
+  this.maxTemperature = 25;
 };
 
 Thermo.prototype.increaseTemperature = function() {

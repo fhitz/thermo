@@ -22,6 +22,11 @@ describe('Thermo', function() {
     expect(thermo.minimumTemperature).toBe(10);
   });
 
+  it('powerSaveMode on by default and max temperature is 25', function() {
+    thermo = new Thermo();
+    expect(thermo.maxTemperature).toBe(25);
+  });
+
 
 
 
