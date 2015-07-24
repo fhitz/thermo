@@ -24,9 +24,9 @@
         <ul>
           <li><button onclick="up()">Up</button></li>
           <li><button onclick="down()">Down</button></li>
-          <li><button>Reset</button></li>
-          <li><button>Power Saving Mode ON</button></li>
-          <li><button>Power Saving Mode OFF</button></li>
+          <li><button onclick="reset()">Reset</button></li>
+          <li><button onclick="psmOn()">Power Saving Mode ON</button></li>
+          <li><button onclick="psmOff()">Power Saving Mode OFF</button></li>
         </ul>
       </section>
 
@@ -45,6 +45,25 @@
     function down() {
       thermo.decreaseTemperature();
       document.getElementById('temp').innerHTML = thermo.defaultTemperature;
+    }
+
+    function reset() {
+      thermo.resetButton();
+      document.getElementById('temp').innerHTML = thermo.defaultTemperature;
+    }
+
+    function psmOn() {
+      thermo.powerSaveMode = true;
+      thermo.powerSaveButton();
+      document.getElementById('temp').innerHTML = thermo.defaultTemperature;
+      document.getElementById('power-saving').innerHTML = "ON";
+    }
+
+    function psmOff() {
+      thermo.powerSaveMode = false;
+      thermo.powerSaveButton();
+      document.getElementById('temp').innerHTML = thermo.defaultTemperature;
+      document.getElementById('power-saving').innerHTML = "OFF";
     }
 
 
