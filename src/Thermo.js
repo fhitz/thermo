@@ -26,6 +26,9 @@ Thermo.prototype.decreaseTemperature = function() {
 Thermo.prototype.powerSaveButton = function() {
   if (this.powerSaveMode == true) {
     this.maxTemperature = 25;
+    if (this.defaultTemperature > 25) {
+      this.defaultTemperature = 25;
+    }
   } else if (this.powerSaveMode == false) {
     this.maxTemperature = 32;
   } else {
