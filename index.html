@@ -48,8 +48,11 @@
     }
 
     function reset() {
+      thermo.powerSaveMode = true;
       thermo.resetButton();
+      thermo.powerSaveButton();
       document.getElementById('temp').innerHTML = thermo.defaultTemperature;
+      document.getElementById('power-saving').innerHTML = "ON";
     }
 
     function psmOn() {

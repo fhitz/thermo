@@ -38,7 +38,8 @@ Thermo.prototype.powerSaveButton = function() {
 };
 
 Thermo.prototype.resetButton = function() {
-  return this.defaultTemperature = 20;
+   this.defaultTemperature = 20;
+   this.powerSaveMode = true;
 };
 
 Thermo.prototype.setColor = function() {
