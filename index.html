@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Thermo</title>
   <link rel="stylesheet" href="css/style.css" type="text/css">
+
   <script src="src/Thermo.js"></script>
 </head>
 <body id="home">
@@ -21,8 +22,8 @@
 
       <section>
         <ul>
-          <li><button>Up</button></li>
-          <li><button>Down</button></li>
+          <li><button onclick="up()">Up</button></li>
+          <li><button onclick="down()">Down</button></li>
           <li><button>Reset</button></li>
           <li><button>Power Saving Mode ON</button></li>
           <li><button>Power Saving Mode OFF</button></li>
@@ -33,5 +34,21 @@
 
 
   </wrapper>
+  <script type="text/javascript">
+    thermo = new Thermo();
+
+    function up() {
+      thermo.increaseTemperature();
+      document.getElementById('temp').innerHTML = thermo.defaultTemperature;
+    }
+
+    function down() {
+      thermo.decreaseTemperature();
+      document.getElementById('temp').innerHTML = thermo.defaultTemperature;
+    }
+
+
+
+  </script>
 </body>
 </html>
