@@ -22,11 +22,13 @@
 
       <section>
         <ul>
-          <li><button onclick="up()">Up</button></li>
-          <li><button onclick="down()">Down</button></li>
-          <li><button onclick="reset()">Reset</button></li>
-          <li><button onclick="psmOn()">Power Saving Mode ON</button></li>
-          <li><button onclick="psmOff()">Power Saving Mode OFF</button></li>
+          <div id="faceplate">
+            <li><button onclick="up()">Up</button></li>
+            <li><button onclick="down()">Down</button></li>
+            <li><button onclick="reset()">Reset</button></li>
+            <li><button onclick="psmOn()">Power Saving Mode ON</button></li>
+            <li><button onclick="psmOff()">Power Saving Mode OFF</button></li>
+          </div>
         </ul>
       </section>
 
@@ -41,14 +43,14 @@
       thermo.increaseTemperature();
       thermo.setColor();
       document.getElementById('temp').innerHTML = thermo.defaultTemperature;
-      document.getElementById('wrapper').style.backgroundColor = thermo.color;
+      document.getElementById('faceplate').style.backgroundColor = thermo.color;
     }
 
     function down() {
       thermo.decreaseTemperature();
       thermo.setColor();
       document.getElementById('temp').innerHTML = thermo.defaultTemperature;
-      document.getElementById('wrapper').style.backgroundColor = thermo.color;
+      document.getElementById('faceplate').style.backgroundColor = thermo.color;
     }
 
     function reset() {
@@ -58,7 +60,7 @@
       thermo.powerSaveButton();
       document.getElementById('temp').innerHTML = thermo.defaultTemperature;
       document.getElementById('power-saving').innerHTML = "ON";
-      document.getElementById('wrapper').style.backgroundColor = thermo.color;
+      document.getElementById('faceplate').style.backgroundColor = thermo.color;
     }
 
     function psmOn() {
@@ -67,7 +69,7 @@
       thermo.setColor();
       document.getElementById('temp').innerHTML = thermo.defaultTemperature;
       document.getElementById('power-saving').innerHTML = "ON";
-      document.getElementById('wrapper').style.backgroundColor = thermo.color;
+      document.getElementById('faceplate').style.backgroundColor = thermo.color;
     }
 
     function psmOff() {
@@ -76,7 +78,7 @@
       thermo.setColor();
       document.getElementById('temp').innerHTML = thermo.defaultTemperature;
       document.getElementById('power-saving').innerHTML = "OFF";
-      document.getElementById('wrapper').style.backgroundColor = thermo.color;
+      document.getElementById('faceplate').style.backgroundColor = thermo.color;
     }
 
 
