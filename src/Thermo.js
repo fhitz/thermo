@@ -43,11 +43,11 @@ Thermo.prototype.resetButton = function() {
 };
 
 Thermo.prototype.setColor = function() {
-    if ( this.defaultTemperature < 18 ) {
-      this.color = 'green';
+    if ( this.defaultTemperature <= 18 ) {
+      this.color = 'rgb(216, 236, 216)';
     } else if ( this.defaultTemperature > 18 && this.defaultTemperature < 25) {
-      this.color = 'yellow';
+      this.color = 'rgb(247, 247, 220)';
     } else {
-      this.color = 'red';
+      this.color = 'rgb(245, 193, 193)';
     }
 };
