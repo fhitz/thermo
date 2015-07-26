@@ -1,4 +1,4 @@
-# thermo ######.stat######
+# thermo ###### .stat ######
 
 Project1: digital thermostat app using **Javascript** and test-driven with  **Jasmine**. It also uses **Javascript** to interact (UI) with the HTML page (display buttons).
 
