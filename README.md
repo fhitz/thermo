@@ -16,7 +16,9 @@ Project1: digital thermostat app using **Javascript** and test-driven with  **Ja
 
 ## fizzbuzz in javascript 
 
- Project2: go to your browser, and in the same window where your SpecRunner.html is loaded up, open your console (Google Chrome shortcut is cmd + option + i) and at the prompt intitialise an instance of Javabuzz():
+ Project2: javabuzz(fizzbuzz) now using **Javascript** instead of **Ruby** and test-driven with **Jasmine** instead of **RSpec**
+ 
+ Go to your browser, and in the same window where your SpecRunner.html is loaded up, open your console (Google Chrome shortcut is cmd + option + i) and at the prompt intitialise an instance of Javabuzz():
 
 var javabuzz = new Javabuzz();
 and then throw some numbers at it:
