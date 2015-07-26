@@ -14,7 +14,7 @@ Another thermostat practice exercise app using **Javascript** and **Jasmine** te
 * You can reset the temperature to 20 by hitting the reset button
 * The thermostat should colour the display based on energy usage - < 18 is green, < 25 is yellow, otherwise red
 
-#### but first fizzbuzz in javascript 
+## but first fizzbuzz in javascript 
 
 go to your browser, and in the same window where your SpecRunner.html is loaded up, open your console (Google Chrome shortcut is cmd + option + i) and at the prompt intitialise an instance of Javabuzz(); as you did in your spec file:
 
