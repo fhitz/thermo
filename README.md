@@ -1,6 +1,6 @@
 # thermo
 
-another thermostat practice exercise app using **Javascript** and **Jasmine** testing framework
+Another thermostat practice exercise app using **Javascript** and **Jasmine** testing framework
 
 ###Specification
 
